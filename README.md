@@ -54,8 +54,29 @@ The original datasets can be found or downloaded from the following sources:
 Note: Processed data will be made available upon paper acceptance.
 
 
+
+
+
+
 ## Usage
+
 The code will be made available upon paper acceptance. The framework supports two training modes:
+
+### Additional Data for Domain Adaptation
+
+To support domain adaptation experiments, a feature file is required. Please follow the steps below:
+
+ 1. Download the file from the following Google Drive link:
+ 
+      [Download Feature File](https://drive.google.com/file/d/1ImF9DnvqUS8RFt8SllbRYF10XPxrrnwU/view?usp=drive_link)
+
+ 2. Place the downloaded file into the following directories:
+ 
+	•	data/domain_adaptaion/source/features
+ 
+	•	data/domain_adaptaion/target/DiPPI/features
+
+Make sure the file is present in both directories so that the domain adaptation mode can correctly load the required features.
 
 ### Standard Training Mode
 In standard training mode, we evaluate the model using two data split strategies:
