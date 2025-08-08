@@ -8,7 +8,26 @@ This repository contains the code and data for our paper "**AlphaPPIMI: A Compre
 
 **AlphaPPIMI: A Comprehensive Deep Learning Framework for Predicting PPI-Modulator Interactions**
 
-
+Protein-protein interactions (PPIs) regulate essential biological processes
+through complex interfaces, with their dysfunction is associated with various
+diseases. Consequently, the identification of PPIs and their interface-targeting
+modulators has emerged as a critical therapeutic approach. However, discovering
+modulators that target PPIs and PPI interfaces remains challenging
+as traditional structure-similarity-based methods fail to effectively characterize
+PPI targets, particularly those for which no active compounds are known.
+Here, we present AlphaPPIMI, a comprehensive deep learning framework that
+combines large-scale pretrained language models with domain adaptation for
+predicting PPI-modulator interactions, specifically targeting PPI interface. To
+enable robust model development and evaluation, we constructed comprehensive
+benchmark datasets of PPI-modulator interactions (PPIMI). Our framework
+integrates comprehensive molecular features from Uni-Mol2, protein representations
+derived from state-of-the-art language models (ESM2 and ProTrans), and
+PPI structural characteristics encoded by PFeature. Through a specialized crossattention
+architecture and conditional domain adversarial networks (CDAN), AlphaPPIMI effectively learns potential associations between PPI targets and
+modulators while ensuring robust cross-domain generalization. Extensive evaluations
+demonstrate that AlphaPPIMI significantly outperforms existing methods
+in predicting PPIMI, providing a powerful tool for identifying novel PPI
+modulators, particularly those acting on PPI interfaces.
 
 
 ## Model Architecture of AlphaPPIMI
