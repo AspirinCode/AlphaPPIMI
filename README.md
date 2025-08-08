@@ -22,7 +22,10 @@ This repository contains the code and data for our paper "[**AlphaPPIMI: A Compr
 
 ## News!
 
-under review ！！！  
+**[2025/08/08]** Accepted in **Journal of Cheminformatics**, 2025.  
+
+**[2025/03/08]** submission to **Journal of Cheminformatics**, 2025.  
+
 
 ## Requirements
 ```
