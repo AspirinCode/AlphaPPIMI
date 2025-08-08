@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://github.com/Bigrock-dd/AlphaPPIMI)
 
 
-This repository contains the code and data for our paper "[**AlphaPPIMI: A Comprehensive Deep Learning Framework for Predicting PPI-Modulator Interactions**]". Currently, the paper is under review. We plan to make the code publicly available after the paper is accepted.  ！！！
+This repository contains the code and data for our paper "**AlphaPPIMI: A Comprehensive Deep Learning Framework for Predicting PPI-Modulator Interactions**".
 
 
 # AlphaPPIMI
